@@ -209,14 +209,14 @@ header {
   color: var(--whiteColor) !important;
 }
 #banner{
-  background: linear-gradient(-45deg, var(--primaryColor), var(--secondColor), #23a6d5, #23d5ab);
+  background: linear-gradient(-30deg, var(--secondColor), #23a6d5, #23d5ab,var(--primaryColor));
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 50vh;
 }
 #banner h3{
   padding-top: 50px;
-  color: var(--primaryColor);
+  color: var(--whiteColor);
   font-size: 55px;
   font-family: var(--secondaryFont);
   width: 100%;
@@ -246,5 +246,18 @@ header {
   }
   #mobile_nav {
     display: block;
+  }
+  #banner{
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #banner{
+    padding: 0px 10px;
+    height: 60vh;
+    text-align: center;
+  }
+  #banner h3{
+    font-size: 40px;
   }
 }
