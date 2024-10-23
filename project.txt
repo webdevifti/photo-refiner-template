@@ -1,0 +1,10 @@
+pages
+    -home
+    -about
+    -contact
+    -services
+        -service-details
+    -projects/portfolio
+        -project-details/portfolio-details
+    -pricing
+    
